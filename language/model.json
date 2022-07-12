@@ -1,0 +1,240 @@
+{
+  "month_day": {
+    "en-US": "dd/MM",
+    "vi-VN": "MM/dd",
+    "th-TH": "MM/dd",
+    "zh-CN": "MM月dd日",
+    "zh-TW": "MM月dd日"
+  },
+  "month_day_hm": {
+    "en-US": "dd/MM hh:mm",
+    "vi-VN": "MM/dd hh:mm",
+    "th-TH": "MM/dd hh:mm",
+    "zh-CN": "MM/dd hh:mm",
+    "zh-TW": "MM/dd hh:mm"
+  },
+  "no_settle_order": {
+    "en-US": "No settled notes",
+    "vi-VN": "Không có lệnh giải quyết",
+    "th-TH": "ไม่มีคำสั่งระงับคดี",
+    "zh-CN": "无结算订单",
+    "zh-TW": "無結算訂單"
+  },
+  "no_unsettle_order": {
+    "en-US": "No unsettled notes",
+    "vi-VN": "Không có đơn đặt hàng chưa thanh toán",
+    "th-TH": "ไม่มียอดสั่งค้าง",
+    "zh-CN": "无未结算订单",
+    "zh-TW": "無未結算訂單"
+  },
+  "pen_count": {
+    "en-US": "Number",
+    "vi-VN": "số bút",
+    "th-TH": "ปากกานับ",
+    "zh-CN": "笔数",
+    "zh-TW": "筆數"
+  },
+  "bet": {
+    "en-US": "Bet",
+    "vi-VN": "cá cược",
+    "th-TH": "เดิมพัน",
+    "zh-CN": "投注",
+    "zh-TW": "投注"
+  },
+  "bet_amount": {
+    "en-US": "Bet Amount",
+    "vi-VN": "cá cược",
+    "th-TH": "เดิมพัน",
+    "zh-CN": "投注",
+    "zh-TW": "投注"
+  },
+  "lose_win": {
+    "en-US": "Lose/Win",
+    "vi-VN": "mất/thắng lợi",
+    "th-TH": "แพ้/ชนะ",
+    "zh-CN": "输/赢",
+    "zh-TW": "輸/贏"
+  },
+  "days_day": {
+    "en-US": "{n} days",
+    "vi-VN": "{n}bầu trời",
+    "th-TH": "{n}ท้องฟ้า",
+    "zh-CN": "{n}天",
+    "zh-TW": "{n}天"
+  },
+  "def_sort": {
+    "en-US": "Settled time",
+    "vi-VN": "mặc định phân loại",
+    "th-TH": "การเรียงลำดับเริ่มต้น",
+    "zh-CN": "默认排序",
+    "zh-TW": "默認排序"
+  },
+  "bet_time": {
+    "en-US": "Betting Time",
+    "vi-VN": "thời gian cá cược",
+    "th-TH": "เวลาเดิมพัน",
+    "zh-CN": "投注时间",
+    "zh-TW": "投注時間"
+  },
+  "return_back": {
+    "en-US": "Return",
+    "vi-VN": "trở về",
+    "th-TH": "กลับ",
+    "zh-CN": "返还",
+    "zh-TW": "返還"
+  },
+  "max_win": {
+    "en-US": "Highest Win",
+    "vi-VN": "chiến thắng tối đa",
+    "th-TH": "ชนะสูงสุด",
+    "zh-CN": "最高可赢",
+    "zh-TW": "最高可贏"
+  },
+  "bet_order_num": {
+    "en-US": "Bet Number",
+    "vi-VN": "Số ghi chú",
+    "th-TH": "หมายเหตุหมายเลข",
+    "zh-CN": "注单号",
+    "zh-TW": "注單號"
+  },
+  "pre_pan": {
+    "en-US": "早盘",
+    "vi-VN": "sáng sớm",
+    "th-TH": "เช้าตรู่",
+    "zh-CN": "早盘",
+    "zh-TW": "早盤"
+  },
+  "rock_ball": {
+    "en-US": "滚球",
+    "vi-VN": "Lăn bóng",
+    "th-TH": "หมุนลูกบอล",
+    "zh-CN": "滚球",
+    "zh-TW": "滾球"
+  },
+  "champion": {
+    "en-US": "冠军",
+    "vi-VN": "quán quân",
+    "th-TH": "แชมป์",
+    "zh-CN": "冠军",
+    "zh-TW": "冠軍"
+  },
+  "hk_pan": {
+    "en-US": "香港盘",
+    "vi-VN": "Hồng Kông",
+    "th-TH": "ฮ่องกง",
+    "zh-CN": "香港盘",
+    "zh-TW": "香港盤"
+  },
+  "eu_pan": {
+    "en-US": "欧洲盘",
+    "vi-VN": "đĩa châu Âu",
+    "th-TH": "จานยุโรป",
+    "zh-CN": "欧洲盘",
+    "zh-TW": "歐洲盤"
+  },
+  "water_leave": {
+    "en-US": "Tie",
+    "vi-VN": "đi nước",
+    "th-TH": "ไปน้ำ",
+    "zh-CN": "走水",
+    "zh-TW": "走水"
+  },
+  "lose": {
+    "en-US": "Lose",
+    "vi-VN": "đi nước",
+    "th-TH": "แพ้",
+    "zh-CN": "输",
+    "zh-TW": "輸"
+  },
+  "win": {
+    "en-US": "Win",
+    "vi-VN": "thắng lợi",
+    "th-TH": "ชนะ",
+    "zh-CN": "赢",
+    "zh-TW": "贏"
+  },
+  "half_win": {
+    "en-US": "Half Win",
+    "vi-VN": "một nửa thắng",
+    "th-TH": "ครึ่งชนะ",
+    "zh-CN": "半赢",
+    "zh-TW": "半贏"
+  },
+  "half_lose": {
+    "en-US": "Half Lost",
+    "vi-VN": "mất một nửa",
+    "th-TH": "แพ้ครึ่ง",
+    "zh-CN": "半输",
+    "zh-TW": "半輸"
+  },
+  "match_cancel": {
+    "en-US": "Event Cancelled",
+    "vi-VN": "Sự kiện đã bị hủy",
+    "th-TH": "ยกเลิกกิจกรรม",
+    "zh-CN": "赛事取消",
+    "zh-TW": "賽事取消"
+  },
+  "match_delay": {
+    "en-US": "Event postponed",
+    "vi-VN": "Sự kiện bị hoãn",
+    "th-TH": "กิจกรรมเลื่อนออกไป",
+    "zh-CN": "赛事延期",
+    "zh-TW": "賽事延期"
+  },
+  "bet_success": {
+    "en-US": "Bet Placed",
+    "vi-VN": "đặt cược thành công",
+    "th-TH": "เดิมพันได้สำเร็จ",
+    "zh-CN": "投注成功",
+    "zh-TW": "投注成功"
+  },
+  "bet_fail": {
+    "en-US": "Bet Failed",
+    "vi-VN": "đặt cược thua",
+    "th-TH": "แพ้พนัน",
+    "zh-CN": "投注失败",
+    "zh-TW": "投注失敗"
+  },
+  "settled": {
+    "en-US": "Settled",
+    "vi-VN": "Định cư",
+    "th-TH": "ตกลง",
+    "zh-CN": "已结算",
+    "zh-TW": "已結算"
+  },
+  "un_settled": {
+    "en-US": "Unsettled",
+    "vi-VN": "Chưa quyết toán",
+    "th-TH": "ความไม่สงบ",
+    "zh-CN": "未结算",
+    "zh-TW": "未結算"
+  },
+  "bet_order_cancel": {
+    "en-US": "Bet Cancellation",
+    "vi-VN": "Hủy đặt cược",
+    "th-TH": "ยกเลิกเดิมพัน",
+    "zh-CN": "注单取消",
+    "zh-TW": "注單取消"
+  },
+  "confirming": {
+    "en-US": "Confirming",
+    "vi-VN": "xác nhận",
+    "th-TH": "ยืนยัน",
+    "zh-CN": "确认中",
+    "zh-TW": "確認中"
+  },
+  "copy_order_success": {
+    "en-US": "Copy order number successfully",
+    "vi-VN": "Sao chép số đơn đặt hàng thành công",
+    "th-TH": "คัดลอกหมายเลขคำสั่งซื้อสำเร็จ",
+    "zh-CN": "复制订单号成功",
+    "zh-TW": "複製訂單號成功"
+  },
+  "copy_order_fail": {
+    "en-US": "Copy order number fail",
+    "vi-VN": "Không sao chép được số đơn đặt hàng",
+    "th-TH": "คัดลอกหมายเลขคำสั่งซื้อไม่สำเร็จ",
+    "zh-CN": "复制订单号失败",
+    "zh-TW": "複製訂單號失敗"
+  }
+}

@@ -1,0 +1,53 @@
+.close-icon {
+  display: inline-block;
+  width: pxChangeRem1080(34.56);
+  height: pxChangeRem1080(34.56);
+  vertical-align: middle;
+  background: url('~@images/bet_close2.svg') no-repeat center;
+  background-size: contain;
+}
+.calendar-icon,
+.sort1-icon,
+.sort2-icon {
+  display: inline-block;
+  width: pxChangeRem1080(40.32);
+  height: pxChangeRem1080(40.32);
+  vertical-align: middle;
+}
+.calendar-icon {
+  background: url('~@images/calendar.svg') no-repeat center;
+  background-size: contain;
+}
+.sort1-icon {
+  background: url('~@images/sort1.svg') no-repeat center;
+  background-size: contain;
+}
+.sort2-icon {
+  background: url('~@images/sort2.svg') no-repeat center;
+  background-size: contain;
+}
+.caret-m-icon {
+  display: inline-block;
+  @include borderNoColor(pxChangeRem1080(11.52));
+  border-color: transparent;
+}
+.tag-line {
+  position: absolute;
+  display: inline-block;
+  left: pxChangeRem1080(-28.8);
+  top: 20%;
+  height: 60%;
+  width: pxChangeRem1080(8.64);
+  border-top-left-radius: pxChangeRem1080(8.64);
+  border-top-right-radius: pxChangeRem1080(8.64);
+  border-bottom-left-radius: pxChangeRem1080(8.64);
+  border-bottom-right-radius: pxChangeRem1080(8.64);
+}
+.copy-icon {
+  display: inline-block;
+  width: pxChangeRem1080(28.8);
+  height: pxChangeRem1080(34.56);
+  vertical-align: middle;
+  background: url('~@images/copy.svg') no-repeat center;
+  background-size: contain;
+}

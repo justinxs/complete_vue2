@@ -1,0 +1,144 @@
+@import './reset';
+
+@include setRemScreen();
+
+[v-cloak] {
+  display: none;
+}
+
+@font-face {
+  font-family: dinLight;
+  src: url('~@/fonts/dinLight.otf');
+}
+
+@font-face {
+  font-family: dinRegular;
+  src: url('~@/fonts/dinRegular.otf');
+}
+
+@font-face {
+  font-family: dinMedium;
+  src: url('~@/fonts/dinMedium.otf');
+}
+
+@font-face {
+  font-family: dinBold;
+  src: url('~@/fonts/dinBold.otf');
+}
+
+@font-face {
+  font-family: dinBlack;
+  src: url('~@/fonts/dinBlack.otf');
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-right-enter-active,
+.slide-right-leave-active,
+.slide-left-enter-active,
+.slide-left-leave-active {
+  transition: all 500ms;
+  position: absolute;
+  top: 0;
+}
+
+.slide-right-enter {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.slide-right-leave-active {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.slide-left-enter {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.slide-left-leave-active {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.van-dialog {
+  width: pxChangeRem1080(900);
+  border-radius: pxChangeRem1080(15);
+  .van-dialog__header {
+    font-size: pxChangeRem1080(45);
+    color: #333333;
+    font-weight: bold;
+    padding: pxChangeRem1080(28.8) 0;
+  }
+  .van-dialog__message,
+  .van-dialog__content {
+    font-size: pxChangeRem1080(45);
+    color: #333333;
+  }
+  .van-dialog__cancel,
+  .van-dialog__confirm {
+    height: pxChangeRem1080(116);
+    font-size: pxChangeRem1080(45);
+    font-weight: bold;
+  }
+  .van-hairline--top::after {
+    border-top-width: 0;
+  }
+  .van-hairline--left::after {
+    border-left-width: 0;
+  }
+}
+
+.van-overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.no-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: pxChangeRem1080(45);
+  img {
+    width: pxChangeRem1080(411);
+    height: pxChangeRem1080(411);
+    margin-bottom: pxChangeRem1080(54);
+  }
+}
+
+.loading-view {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+.v-middle {
+  vertical-align: middle;
+}
+.v-hidden {
+  visibility: hidden;
+}
+
+@keyframes cursor-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+.cursor-input {
+  &::after {
+    content: '';
+    display: inline-block;
+    border-right: 1px solid initial;
+    height: 1em;
+    animation: cursor-blink 1s infinite;
+  }
+}
