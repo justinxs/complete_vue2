@@ -7,9 +7,7 @@ const plugins = require('./plugins');
 const middleware = require('./middleware');
 const Apollo = require('./utils/apollo');
 
-const apolloService = new Apollo({
-  
-});
+const apolloService = new Apollo({});
 
 const setProcess = (processData) => {
   let keys;

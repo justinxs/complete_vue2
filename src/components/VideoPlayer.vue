@@ -24,7 +24,6 @@
 </template>
 
 <script>
-import Vue from 'vue';
 import { Loading } from 'vant';
 import UAParser from 'ua-parser-js';
 import { Zego, Agora } from '@/utils/live';
@@ -32,10 +31,11 @@ import { zegoToken } from '@/api';
 
 let flvjs;
 
-Vue.use(Loading);
-
 export default {
   name: 'VideoPlayer',
+  components: {
+    [Loading.name]: Loading
+  },
   props: {
     options: {
       type: Object,

@@ -10,14 +10,14 @@
 </template>
 
 <script>
-import Vue from 'vue';
 import { Loading } from 'vant';
 import { iOSTouch } from '@/utils/element';
 
-Vue.use(Loading);
-
 export default {
   name: 'SportsApp',
+  components: {
+    [Loading.name]: Loading
+  },
   computed: {
     loading() {
       return this.$store.state.loading;

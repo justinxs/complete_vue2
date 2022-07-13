@@ -71,18 +71,16 @@
   </div>
 </template>
 <script>
-import Vue from 'vue';
 import { List } from 'vant';
 import OrderCard from './OrderCard.vue';
 import OrderSkeleton from './OrderSkeleton.vue';
 import { getOrderList } from '@/api/sports';
 
-Vue.use(List);
-
 export default {
   components: {
     OrderCard,
-    OrderSkeleton
+    OrderSkeleton,
+    [List.name]: List
   },
   props: {
     orderStatus: {
