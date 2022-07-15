@@ -3,6 +3,7 @@ const { merge } = require('webpack-merge');
 const nodeExternals = require('webpack-node-externals');
 const baseConf = require('./webpack.base.conf.js')('server');
 const VueSSRServerPlugin = require('vue-server-renderer/server-plugin');
+const path = require('path');
 
 module.exports = (env) => {
   return merge(baseConf, {
@@ -34,7 +35,8 @@ module.exports = (env) => {
         allowlist: [
           /\.s?css$/,
           /\?vue&type=style/,
-          /vant[\\/]lib[\\/](.)+[\\/]style/
+          /vant[\\/]lib[\\/](.)+[\\/]style/,
+          /swiper/
         ]
       }),
       function ({ context, request }, callback) {
@@ -54,6 +56,14 @@ module.exports = (env) => {
         'process.env.VUE_ENV': '"server"'
       }),
       new VueSSRServerPlugin()
-    ]
+    ],
+    resolve: {
+      // ssr 虚拟模块
+      alias: {
+        swiper$: path.resolve(__dirname, '../aliasModule/swiper.js'),
+        'swiper/core': path.resolve(__dirname, '../aliasModule/swiper.js'),
+        'swiper/bundle': path.resolve(__dirname, '../aliasModule/swiper.js')
+      }
+    }
   });
 };
