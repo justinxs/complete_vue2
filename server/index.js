@@ -9,6 +9,7 @@ const Apollo = require('./utils/apollo');
 
 const apolloService = new Apollo({});
 
+
 const setProcess = (processData) => {
   let keys;
   if (processData && (keys = Object.keys(processData)).length) {
